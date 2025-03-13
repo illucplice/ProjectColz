@@ -1,0 +1,36 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
+
+#unique {
+  color: green;
+  font-size: 18px;
+  border: 2px solid green;
+  padding: 5px;
+}
+
+a[href*="instagram"] {
+  color: purple;
+  font-style: italic;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.first-letter-demo::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
